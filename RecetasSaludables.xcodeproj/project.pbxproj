@@ -6,8 +6,17 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5C1521BD2ED5CCDD0003FDA0 /* Receta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1521BC2ED5CCCC0003FDA0 /* Receta.swift */; };
+		5C1521C12ED5D9E80003FDA0 /* ListaRecetasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1521C02ED5D9E80003FDA0 /* ListaRecetasViewController.swift */; };
+		5C1521C32ED5DE8A0003FDA0 /* DetalleRecetaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1521C22ED5DE8A0003FDA0 /* DetalleRecetaViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		5C1521A42ED5CB3D0003FDA0 /* RecetasSaludables.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecetasSaludables.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C1521BC2ED5CCCC0003FDA0 /* Receta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receta.swift; sourceTree = "<group>"; };
+		5C1521C02ED5D9E80003FDA0 /* ListaRecetasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaRecetasViewController.swift; sourceTree = "<group>"; };
+		5C1521C22ED5DE8A0003FDA0 /* DetalleRecetaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleRecetaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -45,6 +54,9 @@
 		5C15219B2ED5CB3D0003FDA0 = {
 			isa = PBXGroup;
 			children = (
+				5C1521C22ED5DE8A0003FDA0 /* DetalleRecetaViewController.swift */,
+				5C1521C02ED5D9E80003FDA0 /* ListaRecetasViewController.swift */,
+				5C1521BC2ED5CCCC0003FDA0 /* Receta.swift */,
 				5C1521A62ED5CB3D0003FDA0 /* RecetasSaludables */,
 				5C1521A52ED5CB3D0003FDA0 /* Products */,
 			);
@@ -132,6 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C1521C12ED5D9E80003FDA0 /* ListaRecetasViewController.swift in Sources */,
+				5C1521BD2ED5CCDD0003FDA0 /* Receta.swift in Sources */,
+				5C1521C32ED5DE8A0003FDA0 /* DetalleRecetaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
